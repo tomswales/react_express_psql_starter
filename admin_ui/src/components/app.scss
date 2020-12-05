@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/bulma.sass";
+
+.full-height {
+    min-height: 100vh;
+}
+
+.full-width {
+    width: 100vw;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-layout {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.secure {
+    flex: 1;
+    background: whitesmoke;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1em;
+}
+
+.primary-background {
+    background: linear-gradient(#154d8c, #84bdff);
+}
+
+.login-panel {
+    min-width: 400px;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 400px) { 
+    .login-panel {
+        min-width: 0px;
+        width: 95%;
+    }
+}
+
+.header {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: linear-gradient(to right, #154d8c, #84bdff);
+    margin-bottom: 0rem !important;
+}

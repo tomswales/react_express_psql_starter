@@ -1,0 +1,17 @@
+# Dependencies
+/node_modules
+
+# Build
+/dist
+
+# Environment variables
+.env
+
+# client SDK dependencies
+/client_sdk/node_modules
+
+# Admin UI dependencies
+/admin_ui/node_modules
+
+# Any mac files
+.DS_Store
